@@ -1,0 +1,4 @@
+bez-#FAE3D2
+green-#63B19C
+grey - #E7E0DF
+beruz - #50A49C
