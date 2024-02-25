@@ -5,6 +5,14 @@ body {
 }
 #home {
 background-color: #FAE3D2;
+.pinetki-picture{
+	width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-bottom: -5px;
+  margin-top: auto;
+}
 }
 #home .two-column {
 background-color: #E7E0DF;
@@ -12,6 +20,22 @@ background-color: #E7E0DF;
 
 #projects {
 background-color: #FAE3D2;
+.pinetki2-picture{
+	width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-bottom: -4px;
+  margin-top: auto;
+}
+.pinetki3-picture{
+	width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-bottom: -4px;
+  margin-top: auto;
+}
 }
 
 #projects .two-column {
@@ -20,30 +44,66 @@ background-color: #E7E0DF;
 
 #contacts {
 background-color: #FAE3D2;
+.me-picture {
+  vertical-align: middle;
+  width: 500px;
+  height: 450px;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  padding: 20px;
 }
+}
+
 #contacts .two-column {
 background-color: #E7E0DF;
+
 }
 
 #about {
 background-color: #FAE3D2;
+.me-picture {
+  vertical-align: middle;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 20px;
+}
+.zarina-picture {
+  vertical-align: middle;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+padding: 20px;
+}
 }
 
 #about .two-column {
 background-color: #E7E0DF;
 }
 
-.city-picture {
-  width: 500px;
-}
+
 h1 {
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 700;
-	font-size: 40px;
+	font-family: 'Bebas Neue', sans-serif;
+	font-weight: 500;
+	font-size: 30px;
+
+
+}
+p {
+	font-family: 'Bebas Neue', sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+
 }
 
 header {
   background-color: #50A49C;
+
 }
 ul {
   list-style-type: none;
@@ -59,7 +119,7 @@ li {
 
 li a {
   display: block;
-  padding: 8px;
+  padding: 2px;
   background-color: #50A49C;
   color: white;
   text-decoration: none;
@@ -68,11 +128,12 @@ li a {
 header h2 {
   color: #fff;
   margin: 0;
-  padding: 40px;
+  padding: 50px;
 }
 footer {
-  background-color: #175676;
-  padding: 40px;
+  background-color: #50A49C;
+  padding: 5px;
+
 }
 footer p {
   color: #fff;
